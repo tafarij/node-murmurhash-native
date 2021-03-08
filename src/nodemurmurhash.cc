@@ -314,4 +314,4 @@ namespace MurmurHash {
 
 }
 
-NODE_MODULE(murmurhash, MurmurHash::Init)
+NAN_MODULE_WORKER_ENABLED(murmurhash, MurmurHash::Init)
